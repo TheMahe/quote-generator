@@ -19,6 +19,8 @@ body {
   justify-content: center;
 }
 
+
+
 .quote-container {
   width: auto;
   max-width: 900px;
@@ -78,11 +80,11 @@ button:active {
   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.0.65);
 }
 
-.twitter-button:hover {
-  color: #38a1f3;
+.x-button:hover {
+  color: rgba(0, 0, 0, 0.2);
 }
 
-.fa-twitter {
+.fa-x {
   font-size: 1.5rem;
 }
 
@@ -104,7 +106,7 @@ button:active {
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid #3498db;
+  border-top: 16px solid #000;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
